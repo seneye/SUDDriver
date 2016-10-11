@@ -6,7 +6,7 @@ Welcome to the [seneye USB Device (SUD)](http://answers.seneye.com/en/Seneye_Pro
 
 _If you are looking for the the instructions for normal use of the SUD then please click [here](http://answers.seneye.com/en) as you are in the wrong place._
 
-The information in this repository provides all the details required to produce a stand-alone program to receive with the SUD over USB. Source code examples are provided in ".NET" and "c" languages.
+The information in this repository provides all the details required to produce a stand-alone program to communicate with the SUD over USB. Source code examples are provided in ".NET" and "c" languages.
 
 
 ## Outcome
