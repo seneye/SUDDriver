@@ -19,6 +19,7 @@ When the code is implemented sucessfully you will be able to:
 - Call a reading of pH, NH3, in/out of water, & temperature from the SUD 
 - Activate a seneye slide to the SUD
 
+Full details can be found [here](https://github.com/seneye/SUDDriver/wiki)
 
 ## Example code
 
