@@ -1,0 +1,17 @@
+{
+    "version": "0.1.0",  
+    "isShellCommand": true,
+    "showOutput": "always",
+     "linux": {
+        "command": "gcc",
+        "args": ["-o","bin//SUDTest","-Wall","-ludev", "-lncurses", "-lrt","-lstdc++","-g", "main.cpp", "linux/hid.c"]
+     },
+     "osx": {
+        "command": "gcc",
+        "args": ["-o","bin//SUDTest","-Wall", "-lncurses", "-lstdc++","-framework", "IOKit", "-framework", "CoreFoundation", "-g", "main.cpp", "mac/hid.c"]
+     },
+     "windows": {
+        "command": "gcc",
+        "args": ["-o","bin\\SUDTest.exe","-w" ,"-g", "main.cpp", "windows/hid.c" , "-lpdcurses",  "-lsetupapi", "-lstdc++", "-I", "pdcourses/"]
+     }
+}

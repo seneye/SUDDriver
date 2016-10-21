@@ -27,38 +27,7 @@
 
 ----------------------------------------------------------------------------------------------------------
 */ 
-
-/*
----------------------------------------------------------------------------------------------------------
-
-                      `@@@.  @@@@. :@@@@@   #@@@;  @    @  '@@@+         `@@+          
-                      @# +@ @@  '@`;@#  @@ #@` ,@; @    @ '@, .@#     `@ @@@@@.        
-                      @@  ;`@    @@;@   '@ @`   ;@ @    @ @,   .@     @@ @@@@@@`       
-                      `@@@ :@@@@@@@;@   .@ @@@@@@@ @    @ @@@@@@@    @@@ @@@@@@@       
-                      + `@@,@      ;@   .@ @       @    @ @          @@@  @@@@@@       
-                      @  `@ @'   @;;@   .@ @@   @@ @#  :@ @@   @@    @@@@  #;`@@       
-                      @@@@@ .@@@@@ ;@   .@  @@@@@  ;@@@@#  @@@@@     @@@@`   @@@       
-                                                     @@`             @@@@@`  @@@       
-                                                     @@              `@@@@   #@,       
-                                                                      +@@#@@@@#        
-                                                     @@                ,@@@@@:         
-              																		 
-----------------------------------------------------------------------------------------------------------
-
- THE SAMPLE CODE IS PROVIDED “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES,
- INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- IN NO EVENT SHALL PAGERDUTY OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
- EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS 
- OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) SUSTAINED BY YOU OR A THIRD PARTY,
- HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT ARISING 
- IN ANY WAY OUT OF THE USE OF THIS SAMPLE CODE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- 
- The Code is not covered by any Seneye Service Level Agreements.
-
-----------------------------------------------------------------------------------------------------------
-*/
-
-
+  
 namespace Seneye.ListeningDemo
 {
     using ReactiveUI;
@@ -257,7 +226,8 @@ namespace Seneye.ListeningDemo
             Console.Write("PAR");
             Console.SetCursorPosition(50, 8);
             Console.Write("LUX");
-
+            Console.SetCursorPosition(50, 9);
+            Console.Write("PUR");
             PaintLine(70, 5, 6, true);
 
 
@@ -357,7 +327,8 @@ namespace Seneye.ListeningDemo
                 Console.Write("{0, -25}", x.Par);
                 Console.SetCursorPosition(72, 8);
                 Console.Write("{0, -25}", x.Lux);
-
+                Console.SetCursorPosition(72, 9);
+                Console.Write("{0, -4}%", x.PUR);
                 Console.SetCursorPosition(2, 40);
             });
             // Start the driver

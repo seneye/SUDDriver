@@ -62,7 +62,7 @@ namespace Seneye.SUD.ListeningDriver.Raw
             }
             return s.ToString();
         }
-        public SudReading() : base(62)
+        public SudReading() : base(63)
         {
 
 

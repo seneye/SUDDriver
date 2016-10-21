@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "linux": {
+                "MIMode": "gdb",
+                "program": "${workspaceRoot}/bin/SUDTest"
+            },
+            "osx": {
+                "MIMode": "lldb",
+                "program": "${workspaceRoot}/bin/SUDTest"
+            },
+            "windows": {
+                "MIMode": "gdb",
+                "program": "${workspaceRoot}/bin/SUDTest.exe"
+            },
+            "preLaunchTask": "gcc"
+        }
+    ]
+}

@@ -32,7 +32,7 @@ namespace Seneye.SUD.ListeningDriver.Raw
      
     public class SudLightMeter : BaseField
     {
-        public SudLightMeter() : base(32)
+        public SudLightMeter() : base(33)
         {
         } 
 
@@ -87,6 +87,13 @@ namespace Seneye.SUD.ListeningDriver.Raw
 
             }
         }
+        public int PUR
+        {
+            get
+            { 
+                return  this.buffer[32];
 
+            }
+        }
     }
 }
