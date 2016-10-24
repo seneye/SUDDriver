@@ -1,4 +1,4 @@
-﻿/*
+/*
 ---------------------------------------------------------------------------------------------------------
 
                       `@@@.  @@@@. :@@@@@   #@@@;  @    @  '@@@+         `@@+          
@@ -69,7 +69,7 @@ namespace Seneye.SUD.ListeningDriver
 
     [SecurityPermission(SecurityAction.InheritanceDemand, UnmanagedCode = true)]
     [SecurityPermission(SecurityAction.Demand, UnmanagedCode = true)]
-    public class SUDDriver : ReactiveObject//,  IDisposable
+    public class SUDDriver : ReactiveObject
     {
         public const int DEFAULT_TIMEOUT = 2000;
         private static Logger log;
