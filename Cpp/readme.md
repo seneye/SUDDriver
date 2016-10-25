@@ -1,6 +1,7 @@
 # SUD Driver
 
 This sample can be compile crossplatform usign [Visual Code](https://code.visualstudio.com).
+The minimum firmware version is v2.0.14.
 
 # Linux
 

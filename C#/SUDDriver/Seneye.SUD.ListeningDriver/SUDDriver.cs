@@ -158,7 +158,7 @@ namespace Seneye.SUD.ListeningDriver
 
             if (deviceAttributes.VendorID == 9463)
             {
-                if (deviceAttributes.ProductID == 0x2203)
+                if (deviceAttributes.ProductID == 0x2204)
                 {
                     type = SeneyeProductType.SUDv2e;
                 }

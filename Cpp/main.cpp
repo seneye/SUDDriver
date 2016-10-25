@@ -126,7 +126,7 @@ int main(int argc, char* argv[])
 	clear();
 	refresh();
 	// Enumerate SUDs
-	devs = hid_enumerate(9463, 8707);
+	devs = hid_enumerate(9463, 8708);
 	cur_dev = devs;
 	i = 0;
 
