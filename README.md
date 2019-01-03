@@ -17,7 +17,7 @@ When the code is implemented sucessfully you will be able to:
 - Obtain the serial number from the SUD
 - Receive a lightmeter reading from the SUD*
 - Call a reading of pH, NH3, in/out of water, & temperature from the SUD 
-- Activate a seneye slide to the SUD
+- Activate a seneye slide to the SUD (requires seneye partner scheme)
 
 Full details can be found [here](https://github.com/seneye/SUDDriver/wiki)
 
